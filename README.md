@@ -7,7 +7,7 @@ The term non-standard language covers all linguistic expressions not conforming 
 Learning objectives for you: 
 
 - Big picture: know how to think about the problems
-- Know where to look for solutions, data, code, new ideas, code  
+- Know where to look for solutions, data, code, new ideas
 
 <br>
 
