@@ -42,7 +42,7 @@ WRONG! Humans are capable and should be encouraged to master multiple varieties
 WRONG! The danger is only in the totalitarian mind  
 
 
-There are many examples in history where imposing a particular language or variety on a given territory was so important that it created violence. Some famous examples include language marches in India and colonial practices especially in Africa. More subtle imposing practices are still very widely sprea, everywhere. We are easily ridiculed for the way how we speak, often regarded as less worthy or capable if we don't follow the standard. 
+There are many examples in history where imposing a particular language or variety on a given territory was so important that it created violence. Some famous examples include language marches in India and colonial practices especially in Africa. More subtle imposing practices are still very widely spread, everywhere. We are easily ridiculed for the way how we speak, often regarded as less worthy or capable if we don't follow the standard. 
 
 The case of my own language, which I don't know how to name after all, is a curious example of how absurd things can get whe people try to create four standard languages out of the same dialect. Here is our paper where you can read more about it:
 
