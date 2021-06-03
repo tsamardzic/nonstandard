@@ -29,20 +29,20 @@ Source:
 ##### Politics, power and the question of who decides what is correct in language 
 
 
-All four aspects of standard languages (selection, acceptance, codification, elaboration) are extremely sensitive to delicate equilibriums in societies. The way we use language is an inherent part of who we are. Not following linguistic norms imposed by the institutions is often seen as an act of rebellion, even treason. This is why language standardisation often boils down to the question of dominance, that is who decided the rules, who has the power to impose them. 
+All four aspects of standard languages (selection, acceptance, codification, elaboration) are extremely sensitive to delicate equilibriums in societies. The way we use language is an inherent part of who we are. Not following linguistic norms imposed by the institutions is often seen as an act of rebellion, even treason. This is why language standardisation often boils down to the question of dominance, that is who decides the rules, who has the power to impose them. 
 
 
 ##### Popular misconceptions 
 
 - "Standard is cultivated by suppressing non-standard"  <br>
-WRONG! Humans are capable and should be encouraged to to master multiple varieties 
+WRONG! Humans are capable and should be encouraged to master multiple varieties 
 
 
 -  "Non-standard is dangerous" <br>
 WRONG! The danger is only in the totalitarian mind  
 
 
-There are many examples in history where imposing a particular language or variety on a given territory was so important that it created violence. Some famous examples include language marches in India and colonial practices especially in Africa. More subtle imposing practices are still very wide spread everywhere. We are easily ridiculed for the way how we speak, often regarded as less worthy or capable if we don't follow the standard. 
+There are many examples in history where imposing a particular language or variety on a given territory was so important that it created violence. Some famous examples include language marches in India and colonial practices especially in Africa. More subtle imposing practices are still very widely sprea, everywhere. We are easily ridiculed for the way how we speak, often regarded as less worthy or capable if we don't follow the standard. 
 
 The case of my own language, which I don't know how to name after all, is a curious example of how absurd things can get whe people try to create four standard languages out of the same dialect. Here is our paper where you can read more about it:
 
@@ -85,9 +85,9 @@ __BREAK__
 
 ### 3. Standard vs. non-standard across time, space, society
 
-The first language processing algorithms started being developed at the point in time when language standardisation was at its peak (in those few languages that did go through the process of standardisation).  This is how the idea of single "correct" spelling became an inherent part of language technology. Until recently, "correct" spelling was necessary in order to use computers at all, to perform internet searches, for instance, or dictionary look-up. 
+The first language processing algorithms started being developed at the point in time when language standardisation was at its peak (in those few languages that did go through the process of standardisation).  This is how the idea of a single "correct" spelling became an inherent part of language technology. Until recently, "correct" spelling was necessary in order to use computers at all, to perform internet searches, for instance, or dictionary look-up. 
 
-In the meantime, computers not only became more flexible, but they also contribute to a new wave of language diversification. With the spread of the internet, non-edited writing pours into the public space bringing more fun but also more challenges for processing. 
+In the meantime, computers not only became more flexible, but they also contributed to a new wave of language diversification. With the spread of the internet, non-edited writing pours into the public space bringing more fun but also more challenges for processing. 
 
 <br> 
 
@@ -160,7 +160,10 @@ A (simplified) example from WUS:
 - Devopedia, [Text normalisation](https://devopedia.org/text-normalization) 
 - Tim Baldwin, [Natural Language Processing for User Generated Content](https://drive.google.com/drive/folders/1UuSd9mo6PAsrMaS2arIjr_26s-kz52zV), ALPS2021 lectures 
 
-Most techniques adapted from other NLP tasks, especially morphological processing (word-level transducers) and machine translation.   
+Most techniques adapted from other NLP tasks, especially morphological processing (word-level transducers) and machine translation. 
+
+<br>
+
 This is an example of how machine translation is adapted:
 
 <img src="figures/cSMTvscNMT.png" alt="SMTvsNMT" width="600"/> 
@@ -172,7 +175,7 @@ My overview:
 | General framework | General technology | How it works | Pros | Contras |
 |:-----------|:-----------|:-----------|:-----------|:-----------|
 |   |   |   |   |   | 
-| Rule-based | Finite state transducers, e.g. [xfst](https://web.stanford.edu/~laurik/fsmbook/home.html), [hfst](http://hfst.github.io), [OpenFst](http://www.openfst.org/twiki/bin/view/FST/WebHome)  | You write a large set of rules using the exact formalism required by the software, the software reads your rules and applies them to transform any given input| No need for training data, your knowledge is enough| You quickly understand how little you know, rules get complicated with small coverage poor, needs to be manually updated |  
+| Rule-based | Finite state transducers, e.g. [xfst](https://web.stanford.edu/~laurik/fsmbook/home.html), [hfst](http://hfst.github.io), [OpenFst](http://www.openfst.org/twiki/bin/view/FST/WebHome)  | You write a large set of rules using the exact formalism required by the software, the software reads your rules and applies them to transform any given input| No need for training data, your knowledge is enough| You quickly understand how little you know, rules get complicated with small coverage, needs to be manually updated |  
 |   |   |   |   |   | 
 |Statistical machine translation with IBM models (cSMT)| [Moses toolkit](http://www.statmt.org/moses/?n=Moses.Baseline)   |  Like machine translation, just that we "translate" characters instead of words | You can train a model on your laptop, works better for this task than for actual translation | You need training data e.g. our Swiss German data sets |
 |   |   |   |   |   |
