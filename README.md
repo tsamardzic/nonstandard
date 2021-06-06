@@ -153,6 +153,7 @@ A (simplified) example from WUS:
 <img src="figures/weil.png" alt="wiel" width="600"/>
 
 
+
 ##### Overview of NLP approaches to normalisation
 
 
@@ -226,12 +227,20 @@ In text? There is some work on making texts polite, but we can expect more of th
 
 
 ---
-### 6. Relevant NLP workshops (ACL)
+### 6. Where to find more non-standard data 
 
+#####  Shared tasks of NLP workshops (ACL)
 
 - [VarDial](https://sites.google.com/view/vardial2021): Workshop on NLP for Similar Languages, Varieties and Dialects 
 - [W-NUT](http://noisy-text.github.io/2021/#tasks): Workshop on Noisy User-generated Text
 - [SIGMORPHON](https://sigmorphon.github.io/workshops/): Workshop of the Special Interest Group on Computational Morphology and Phonology
+ 
+
+##### African-American English example 
+
+- UMass SLANG Lab [overview and data](http://slanglab.cs.umass.edu/TwitterAAE/) 
+
+##### Any other?
 
 ---
 
